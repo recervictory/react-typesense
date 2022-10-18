@@ -6,7 +6,9 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "start-typesense-server": "node scripts/startTypesenseServer.cjs",
+    "populate": "node scripts/populateTypesenseindex.cjs"
   },
   "dependencies": {
     "dotenv": "^16.0.3",
